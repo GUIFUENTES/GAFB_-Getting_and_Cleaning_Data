@@ -66,10 +66,8 @@ dataFeaturesNames <- read.table(file.path(path_rf, "features.txt"),head=FALSE)
 names(dataFeatures)<- dataFeaturesNames$V2
 
 ##Merge Columns 
-names(dataSubject)<-c("subject")
-names(dataActivity)<- c("activity")
-dataFeaturesNames <- read.table(file.path(path_rf, "features.txt"),head=FALSE)
-names(dataFeatures)<- dataFeaturesNames$V2
+dataCombine <- cbind(dataSubject, dataActivity)
+Data <- cbind(dataFeatures, dataCombine)
 
 
 ## 2.Extracts only the measurements on the mean and standard deviation for each measurement
