@@ -1,0 +1,25 @@
+DATA INTRODUCTION
+
+1. This project downloaded the files from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+2.This project used the following variables:
+
+- Y_test.txt
+- Y_train.txt
+- subject_train.txt
+- subject_test.txt
+- X_test.txt
+- X_train.txt
+
+2.The "features.txt" have the original names variables 
+
+VARIABLES
+This code uses the following variables:
+
+- Activity (train and test)
+- Subject (train and test)
+- Features (train and test)
+
+3.The file README.MD the file and its description.
+
+
+
